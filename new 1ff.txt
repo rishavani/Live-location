@@ -1,0 +1,13 @@
+def threadsendmsg():
+  pass
+  
+  startchatimage=PhotoImage(file='start.png')
+  
+  buttons=Button(root,image=startchatimage,command=func,borderwidth=0)
+  button.place(x=90,y=10)
+  
+ message=StringVar()
+ messagebox.place(x=10,y=444)
+ sendmessageimg=PhotoImage(file='send.png')
+ 
+ sendmessagebutton=Button(root,image=sendmessageimg,command=threadsendmsg,borderwidth=0)
